@@ -53,7 +53,7 @@ export const testApiConnection = async (settings: ApiSettings): Promise<void> =>
 
   try {
     console.log("Testing connection to:", normalizedEndpoint);
-    const response = await fetch(normalizedEndpoint, {
+    const response = await fetch('/api/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
