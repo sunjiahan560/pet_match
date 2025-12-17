@@ -1,0 +1,5 @@
+{
+  "name": "PetMatch AI - 智能宠物推荐",
+  "description": "基于您的生活方式、性格和偏好，利用 Gemini AI 为您推荐最完美的宠物伴侣。",
+  "requestFramePermissions": []
+}
